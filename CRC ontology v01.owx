@@ -1,0 +1,2026 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ca/ontologies/2024/0/DIOPTRA"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ca/ontologies/2024/0/DIOPTRA">
+    <Prefix name="" IRI="http://www.semanticweb.org/ca/ontologies/2024/0/DIOPTRA/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alcohol_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavioral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood_samples_collection_metadata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifestyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_activity_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoking_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sociodemographics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stress-PSS4_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supplements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Includes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_of_allergy_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_of_asthma_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_of_first_pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_of_youngest_relative_at_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alanine_aminotransferase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Albumin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alkaline_phosphatase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Allergic_to"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Allergies_or_Asthma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Anticoagulants"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Antihypertensives"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Antiplatelet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aspartate_aminotransferase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aspirin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BMI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bilirubin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#C_reactive_protein"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Calcium_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cancer_Ag_125"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cancer_Ag_19-9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Carcinoembryonic_Ag"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cardiovascular_Disease"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cholesterol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cholesterol.in_HDL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cholesterol.in_LDL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Chronic_Kidney_Disease"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cigarette_packs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Coagulation_tissue_factor_induced.INR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Confident_to_handle_your_personal_problems"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Constipation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Corticosteroids"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country_of_birth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country_of_residence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country_that_you_took_the_most_part_of_your_life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DPP-4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Daily_Multivitamin_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Daily_sedentary_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dietary_habits"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Drug_allergy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Drug_allergy_details"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Drug_intolerance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration_of_physical_activity_sessions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dyslipidemia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Educational_achievement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Exposed_to_secondhand_smoke"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Family_History_of_CRC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fast_food_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ferritin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fiber_supplement_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fibrinogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Finding_of_tobacco_smoking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Finding_relating_to_alcohol_drinking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Findings_of_last_colonoscopy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Folic_acid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Follitropin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Food_allergy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Food_intolerance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frequency_of_oral_contraceptive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frequency_of_supplement_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fruits_and_vegetables_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GLP-1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gamma_glutamyl_transferase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Glomerular_filtration_rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HbA1c"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hematocrit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hemoglobin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal.lower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hemoglobin_gastrointestinal_presence_in_stool"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Income_paid_monthly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Insulin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Level_of_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Low_fat_dairy_products_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lutropin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lynch_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Magnesium_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Marital_status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Menopausal_state"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Metformin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NSAID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nausea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nervous_and_stressed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_of_pregnancies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Omega_3_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Other_Medication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Other_supplements_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Participant_sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_Occupation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Polyposis_coli"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Probiotics_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Processed_meat_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prolonged_sitting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Residence_and_accommodation_circumstances_-_finding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SGLT-2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sex_of_youngest_relative"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Smoking_cigarettes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Standard_alcoholic_drinks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Statin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Study"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sugary_desserts_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sugary_drinks_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Symptomatic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Thyrotropin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Time_period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Time_point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tissue_sample_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Troponin_I_cardiac"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Unable_to_control_the_important_things_in_your_life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Urea_nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vitamin_B6_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vitamin_C_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vitamin_D_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#White_meat_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Whole_grains_consumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Years_ago_of_last_colonoscopy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Years_of_smoking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alanine_aminotransferase_(With_P-5&apos;-P)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcohol_consumption_(days_per_week)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aspartate_aminotransferase_(No_addition_of_P-5&apos;-P)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aspartate_aminotransferase_(With_P-5&apos;-P)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Basophils_(Automated_count)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Basophils_(Manual_count)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bilirubin_(conjugated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bleeding_from_the_rectum_(Rectal_hemorrhage_(disorder))"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cancer_Ag_125_(ImmunoAssay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cancer_Ag_19-9(ImmunoAssay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Charlson_Comorbidity_Index_(assessment_scale)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cholesterol.in_LDL_(direct_assay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Creatinine_(blood)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Creatinine_(serum/plasma)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Decreased_stool_caliber_(finding)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Diabetes_mellitus_type_2_(disorder)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Eosinophils_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Eosinophils_(manual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fatigue_(finding)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ferritin_(immunoassay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Abdominal_wind_pain_(finding))"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Bowel_spasm_(finding))"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Swollen_abdomen_(finding))"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hematocrit_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal_presence_in_stool_(ImmunoAssay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hemoglobin_A1c/Hemoglobin.total"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#History_of_malignant_neoplasm_(situation)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Iron_saturation_(Mass_Fraction)_in_Serum_or_Plasma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Leukocytes_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Leukocytes_(maunual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Light_or_very_dark_red_blood_in_the_stool_(Hematochezia_(finding))"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lymphocytes_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lymphocytes_(maunual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Monocytes/100_leukocytes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Monocytes_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Monocytes_(maunual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Natriuretic_peptide.B_prohormone_N-Terminal_(ImmunoAssay)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Neutrophils_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Neutrophils_(manual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_of_previous_colonoscopy(ies)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Platelets_(automated)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Platelets_(manual)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sensation_as_if_stool_remains_in_rectum_(finding)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Troponin_I_cardiac_(HS)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Urea_(blood)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Urea_(serum/plasma)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alcohol_consumption"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavioral"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood_samples_collection_metadata"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_biology"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet"/>
+        <Class IRI="#Behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_and_personal_medical_history"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifestyle"/>
+        <Class IRI="#Behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_activity_status"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoking_status"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sociodemographics"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stress-PSS4_Questionnaire"/>
+        <Class IRI="#Behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_information"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supplements"/>
+        <Class IRI="#Behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+        <Class IRI="#Individual"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_of_allergy_diagnosis"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_of_asthma_diagnosis"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_of_first_pregnancy"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_of_youngest_relative_at_diagnosis"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alanine_aminotransferase"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Albumin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alkaline_phosphatase"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Allergic_to"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Allergies_or_Asthma"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Anticoagulants"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Antihypertensives"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Antiplatelet"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Aspartate_aminotransferase"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Aspirin"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BMI"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bilirubin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#C_reactive_protein"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Calcium_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cancer_Ag_125"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cancer_Ag_19-9"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Carcinoembryonic_Ag"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cardiovascular_Disease"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cholesterol"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cholesterol.in_HDL"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cholesterol.in_LDL"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Chronic_Kidney_Disease"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cigarette_packs"/>
+        <Class IRI="#Smoking_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Coagulation_tissue_factor_induced.INR"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Confident_to_handle_your_personal_problems"/>
+        <Class IRI="#Stress-PSS4_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Constipation"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Corticosteroids"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country_of_birth"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country_of_residence"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country_that_you_took_the_most_part_of_your_life"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DPP-4"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Daily_Multivitamin_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Daily_sedentary_time"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Diarrhea"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dietary_habits"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Drug_allergy"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Drug_allergy_details"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Drug_intolerance"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration_of_physical_activity_sessions"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dyslipidemia"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Educational_achievement"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Exposed_to_secondhand_smoke"/>
+        <Class IRI="#Smoking_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Family_History_of_CRC"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fast_food_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ferritin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fiber_supplement_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fibrinogen"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Finding_of_tobacco_smoking_behavior"/>
+        <Class IRI="#Smoking_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Finding_relating_to_alcohol_drinking_behavior"/>
+        <Class IRI="#Alcohol_consumption"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Findings_of_last_colonoscopy"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Folic_acid"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Follitropin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Food_allergy"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Food_intolerance"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Frequency"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Frequency_of_oral_contraceptive"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Frequency_of_supplement_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fruits_and_vegetables_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GLP-1"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gamma_glutamyl_transferase"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Glomerular_filtration_rate"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HbA1c"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Height"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hematocrit"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hemoglobin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal.lower"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hemoglobin_gastrointestinal_presence_in_stool"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hypertension"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Income_paid_monthly"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Insulin"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Level_of_physical_activity"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Low_fat_dairy_products_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lutropin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lynch_syndrome"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Magnesium_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Marital_status"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Menopausal_state"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Metformin"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NSAID"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nausea"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nervous_and_stressed"/>
+        <Class IRI="#Stress-PSS4_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_pregnancies"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Omega_3_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Other_Medication"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Other_supplements_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pain"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Participant_sex"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_Occupation"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Polyposis_coli"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Potassium"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Probiotics_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Processed_meat_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prolonged_sitting"/>
+        <Class IRI="#Physical_activity_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Residence_and_accommodation_circumstances_-_finding"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SGLT-2"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sex_of_youngest_relative"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Smoking_cigarettes"/>
+        <Class IRI="#Smoking_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sodium"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Standard_alcoholic_drinks"/>
+        <Class IRI="#Alcohol_consumption"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Statin"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Study"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sugary_desserts_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sugary_drinks_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Symptomatic"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Thyrotropin"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Time_period"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Time_point"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tissue_sample_number"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Troponin_I_cardiac"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Unable_to_control_the_important_things_in_your_life"/>
+        <Class IRI="#Stress-PSS4_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Urea_nitrogen"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Vitamin_B6_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Vitamin_C_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Vitamin_D_consumption"/>
+        <Class IRI="#Supplements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Sociodemographics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#White_meat_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Whole_grains_consumption"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Years_ago_of_last_colonoscopy"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Years_of_smoking"/>
+        <Class IRI="#Smoking_status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alanine_aminotransferase_(With_P-5&apos;-P)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcohol_consumption_(days_per_week)"/>
+        <Class IRI="#Alcohol_consumption"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Aspartate_aminotransferase_(No_addition_of_P-5&apos;-P)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Aspartate_aminotransferase_(With_P-5&apos;-P)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Basophils_(Automated_count)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Basophils_(Manual_count)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bilirubin_(conjugated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bleeding_from_the_rectum_(Rectal_hemorrhage_(disorder))"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cancer_Ag_125_(ImmunoAssay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cancer_Ag_19-9(ImmunoAssay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Charlson_Comorbidity_Index_(assessment_scale)"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cholesterol.in_LDL_(direct_assay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Creatinine_(blood)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Creatinine_(serum/plasma)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Decreased_stool_caliber_(finding)"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Diabetes_mellitus_type_2_(disorder)"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eosinophils_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eosinophils_(manual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fatigue_(finding)"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ferritin_(immunoassay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Abdominal_wind_pain_(finding))"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Bowel_spasm_(finding))"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Swollen_abdomen_(finding))"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hematocrit_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal_presence_in_stool_(ImmunoAssay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hemoglobin_A1c/Hemoglobin.total"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#History_of_malignant_neoplasm_(situation)"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Iron_saturation_(Mass_Fraction)_in_Serum_or_Plasma"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Leukocytes_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Leukocytes_(maunual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Light_or_very_dark_red_blood_in_the_stool_(Hematochezia_(finding))"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lymphocytes_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lymphocytes_(maunual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Monocytes/100_leukocytes"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Monocytes_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Monocytes_(maunual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Natriuretic_peptide.B_prohormone_N-Terminal_(ImmunoAssay)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Neutrophils_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Neutrophils_(manual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_previous_colonoscopy(ies)"/>
+        <Class IRI="#Family_and_personal_medical_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Platelets_(automated)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Platelets_(manual)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sensation_as_if_stool_remains_in_rectum_(finding)"/>
+        <Class IRI="#Symptoms_and_colonoscopy_procedural_measurements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Troponin_I_cardiac_(HS)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Urea_(blood)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Urea_(serum/plasma)"/>
+        <Class IRI="#Clinical_biology"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_of_allergy_diagnosis"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_of_asthma_diagnosis"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_of_first_pregnancy"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_of_youngest_relative_at_diagnosis"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alanine_aminotransferase"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Albumin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alkaline_phosphatase"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Allergic_to"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Allergies_or_Asthma"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Anticoagulants"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Antihypertensives"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Antiplatelet"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Aspartate_aminotransferase"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Aspirin"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BMI"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bilirubin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#C_reactive_protein"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Calcium_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cancer_Ag_125"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cancer_Ag_19-9"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Carcinoembryonic_Ag"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cardiovascular_Disease"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cholesterol"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cholesterol.in_HDL"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cholesterol.in_LDL"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Chronic_Kidney_Disease"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cigarette_packs"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Coagulation_tissue_factor_induced.INR"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Confident_to_handle_your_personal_problems"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Constipation"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Corticosteroids"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Country_of_birth"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Country_of_residence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Country_that_you_took_the_most_part_of_your_life"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DPP-4"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Daily_Multivitamin_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Daily_sedentary_time"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Diarrhea"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dietary_habits"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Drug_allergy"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Drug_allergy_details"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Drug_intolerance"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duration"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duration_of_physical_activity_sessions"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dyslipidemia"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Educational_achievement"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Exposed_to_secondhand_smoke"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Family_History_of_CRC"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fast_food_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ferritin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fiber_supplement_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fibrinogen"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Finding_of_tobacco_smoking_behavior"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Finding_relating_to_alcohol_drinking_behavior"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Findings_of_last_colonoscopy"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Folic_acid"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Follitropin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Food_allergy"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Food_intolerance"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Frequency"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Frequency_of_oral_contraceptive"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Frequency_of_supplement_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fruits_and_vegetables_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GLP-1"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gamma_glutamyl_transferase"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Glomerular_filtration_rate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HbA1c"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Height"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hematocrit"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hemoglobin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal.lower"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hemoglobin_gastrointestinal_presence_in_stool"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hypertension"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Income_paid_monthly"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Insulin"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Level_of_physical_activity"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Low_fat_dairy_products_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lutropin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lynch_syndrome"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Magnesium_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Marital_status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Menopausal_state"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Metformin"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NSAID"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nausea"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nervous_and_stressed"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_of_pregnancies"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Omega_3_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Other_Medication"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Other_supplements_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pain"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Participant_sex"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Patient_Occupation"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Polyposis_coli"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Potassium"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Probiotics_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Processed_meat_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Prolonged_sitting"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Residence_and_accommodation_circumstances_-_finding"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SGLT-2"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sex_of_youngest_relative"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Smoking_cigarettes"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sodium"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Standard_alcoholic_drinks"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Statin"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Study"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sugary_desserts_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sugary_drinks_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Symptomatic"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Thyrotropin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Time_period"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Time_point"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tissue_sample_number"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Troponin_I_cardiac"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Unable_to_control_the_important_things_in_your_life"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Urea_nitrogen"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vitamin_B6_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vitamin_C_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vitamin_D_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#White_meat_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Whole_grains_consumption"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Years_ago_of_last_colonoscopy"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Years_of_smoking"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alanine_aminotransferase_(With_P-5&apos;-P)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcohol_consumption_(days_per_week)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Aspartate_aminotransferase_(No_addition_of_P-5&apos;-P)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Aspartate_aminotransferase_(With_P-5&apos;-P)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Basophils_(Automated_count)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Basophils_(Manual_count)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bilirubin_(conjugated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bleeding_from_the_rectum_(Rectal_hemorrhage_(disorder))"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cancer_Ag_125_(ImmunoAssay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cancer_Ag_19-9(ImmunoAssay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Charlson_Comorbidity_Index_(assessment_scale)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cholesterol.in_LDL_(direct_assay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Creatinine_(blood)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Creatinine_(serum/plasma)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Decreased_stool_caliber_(finding)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Diabetes_mellitus_type_2_(disorder)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Eosinophils_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Eosinophils_(manual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fatigue_(finding)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ferritin_(immunoassay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Abdominal_wind_pain_(finding))"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Bowel_spasm_(finding))"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gas,_abdominal_cramps_and_bloating_(Swollen_abdomen_(finding))"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hematocrit_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hemoglobin.gastrointestinal_presence_in_stool_(ImmunoAssay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hemoglobin_A1c/Hemoglobin.total"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#History_of_malignant_neoplasm_(situation)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Iron_saturation_(Mass_Fraction)_in_Serum_or_Plasma"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Leukocytes_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Leukocytes_(maunual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Light_or_very_dark_red_blood_in_the_stool_(Hematochezia_(finding))"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lymphocytes_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lymphocytes_(maunual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Monocytes/100_leukocytes"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Monocytes_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Monocytes_(maunual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Natriuretic_peptide.B_prohormone_N-Terminal_(ImmunoAssay)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Neutrophils_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Neutrophils_(manual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_of_previous_colonoscopy(ies)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Platelets_(automated)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Platelets_(manual)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sensation_as_if_stool_remains_in_rectum_(finding)"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Troponin_I_cardiac_(HS)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Urea_(blood)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Urea_(serum/plasma)"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
